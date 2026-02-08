@@ -281,6 +281,21 @@ LI.FI / Arc / ENS / Uniswap / Sui
 
 ---
 
-## 🎥 Demo Video
+## How to get started:
+```bash
+#frontend
+cd frontend
+npm run dev
+touch .env
 
-> *(Add your link here)*
+in .env add:
+PORT=3001
+PRIVATE_KEY=0xade01a289451951ee39ce43d77f92abda37ba40c17303065bfb3e9e1186ec3f1
+SEPOLIA_RPC_URL=https://eth-sepolia.g.alchemy.com/v2/bmwmNksFOgWL_pS_c5yTo
+CHANNEL_ID=namma-demo-channel-001
+LIFI_API_KEY=21bf9e9e-e063-4872-86fb-d6d6eefc5220.4db905fb-6ac7-47dd-9b63-b046ed2d73ee
+
+#backend
+cd backend
+npm start
+```
